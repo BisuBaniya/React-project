@@ -1,0 +1,102 @@
+.Hero{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 50rem;
+}
+
+.Hero-title-1{
+    font-size: 6.3rem;
+    font-weight: 800;
+    line-height:6rem;
+    width: 45rem;
+    position: relative;
+    bottom: 1rem;
+}
+
+.Hero-title-2{
+    font-size: 1rem;
+    position: relative;
+    left: 1rem;
+    top: 3rem;
+}
+
+.Hero-items{
+    width: 40%;
+}
+
+.Hero-image{
+    width: 35%;
+    height: 40rem;
+    background-image: url(./public/shoe_image.png);
+    background-size: cover;
+    position: relative;
+    top: 10rem;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    gap: 2rem;
+}
+
+.button1,.button2{
+    position: relative;
+    left: 1rem;
+    top: 5rem;
+}
+
+.button1,.button2:hover{
+    cursor: pointer;
+}
+
+.button1{
+    height: 2.95rem;
+    width: 12rem;
+    color: white;
+    font-size: large;
+    font-weight: 900;
+    background-color: #d01c28;
+    border: none;
+}
+
+.button2{
+    height: 2.95rem;
+    width: 12rem;
+    color: grey;
+    font-size: large;
+    font-weight: 900;
+    background-color: white;
+    border: 0.1rem solid grey;
+}
+
+.shopfrom{
+    color: rgb(80, 79, 79);
+    position: relative;
+    top: 8rem;
+    left: 1rem;
+}
+
+.shopping-icons{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.flipkart{
+    background-image: url(./public/flipkart.png);
+}
+
+.amazon{
+    background-image: url(./public/amazon.png);
+}
+
+.flipkart,.amazon{
+    position: relative;
+    top: 9.5rem;
+    height: 2rem;
+    width: 2rem;
+    left: 1rem;
+}

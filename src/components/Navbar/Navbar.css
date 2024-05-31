@@ -1,0 +1,44 @@
+*{
+    font-family: sans-serif;
+    margin: 0rem;
+    border: border-box;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 4rem;
+    width: 100%;
+    gap: 20rem;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    gap: 5rem;
+    align-items: center;
+    font-weight: 700;
+    position: relative;
+    right: 1rem;
+}
+
+.btn {
+    height: 1.95rem;
+    width: 6rem;
+    color: white;
+    font-size: large;
+    font-weight: 900;
+    background-color: #d01c28;
+    border: none;
+}
+
+.border,
+.btn:hover {
+    cursor: pointer;
+}
+
+
+
